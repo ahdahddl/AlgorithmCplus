@@ -3,7 +3,7 @@
 //
 
 
-#include "pick.h"
+#include "algorithm.h"
 
 using namespace std;
 
@@ -27,3 +27,5 @@ void algotrithm::pick(int n, vector<int>& picked, int toPick){
         picked.pop_back();
     }
 }
+
+

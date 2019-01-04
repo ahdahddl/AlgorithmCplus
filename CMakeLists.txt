@@ -3,4 +3,4 @@ project(AlgorithmCplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AlgorithmCplus main.cpp pick.cpp pick.h)
+add_executable(AlgorithmCplus main.cpp algorithm.h hasWord.cpp pick.cpp)
